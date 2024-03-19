@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block first</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Serif:300,regular,500,700&display=swap&subset=cyrillic-ext"
+    rel="stylesheet" />
+  <link href="https://ars.dmgug.ru/tvoemestosily/css/modules.css" rel="stylesheet">
+  <link href="https://ars.dmgug.ru/tvoemestosily/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+
+    <main class="main">
+      <section class="plan">
+        <div class="plan__container-big _container">
+          <div class="plan__inner">
+            <div class="plan__container _container">
+              <h2 class="plan__title _section-title">
+                Краткий план как будут проходить изменения
+                <img src="images/ellipse.webp" alt="" class="_ellipse plan__ellipse">
+              </h2>
+              <h3 class="plan__subtitle _section-subtitle">
+                7 дней изучаем, день – закрепляем, два дня – отдыхаем
+                и начинаем следующий этап
+              </h3>
+              <div class="coursor visible-hand">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" height="42" width="42">
+                  <rect class="tooltip-horizontal-scroll-icon_card" x="480" width="200" height="200" rx="5"
+                    fill="rgba(190,190,190,0.3)"></rect>
+                  <rect class="tooltip-horizontal-scroll-icon_card" y="0" width="200" height="200" rx="5"
+                    fill="rgba(190,190,190,0.3)"></rect>
+                  <rect class="tooltip-horizontal-scroll-icon_card" x="240" width="200" height="200" rx="5"
+                    fill="rgba(190,190,190,0.3)"></rect>
+                  <path class="tooltip-horizontal-scroll-icon_hand"
+                    d="M78.9579 285.7C78.9579 285.7 37.8579 212.5 20.5579 180.8C-2.44209 138.6 -6.2422 120.8 9.6579 112C19.5579 106.5 33.2579 108.8 41.6579 123.4L61.2579 154.6V32.3C61.2579 32.3 60.0579 0 83.0579 0C107.558 0 105.458 32.3 105.458 32.3V91.7C105.458 91.7 118.358 82.4 133.458 86.6C141.158 88.7 150.158 92.4 154.958 104.6C154.958 104.6 185.658 89.7 200.958 121.4C200.958 121.4 236.358 114.4 236.358 151.1C236.358 187.8 192.158 285.7 192.158 285.7H78.9579Z"
+                    fill="rgba(190,190,190,1)"></path>
+                  <style>
+                    .tooltip-horizontal-scroll-icon_hand {
+                      animation: tooltip-horizontal-scroll-icon_anim-scroll-hand 2s infinite
+                    }
+              
+                    .tooltip-horizontal-scroll-icon_card {
+                      animation: tooltip-horizontal-scroll-icon_anim-scroll-card 2s infinite
+                    }
+              
+                    @keyframes tooltip-horizontal-scroll-icon_anim-scroll-hand {
+                      0% {
+                        transform: translateX(80px) scale(1);
+                        opacity: 0
+                      }
+              
+                      10% {
+                        transform: translateX(80px) scale(1);
+                        opacity: 1
+                      }
+              
+                      20%,
+                      60% {
+                        transform: translateX(175px) scale(.6);
+                        opacity: 1
+                      }
+              
+                      80% {
+                        transform: translateX(5px) scale(.6);
+                        opacity: 1
+                      }
+              
+                      to {
+                        transform: translateX(5px) scale(.6);
+                        opacity: 0
+                      }
+                    }
+              
+                    @keyframes tooltip-horizontal-scroll-icon_anim-scroll-card {
+              
+                      0%,
+                      60% {
+                        transform: translateX(0)
+                      }
+              
+                      80%,
+                      to {
+                        transform: translateX(-240px)
+                      }
+                    }
+                  </style>
+                </svg>
+              </div>
+              <div class="plan__items">
+
+                <div class="plan__item">
+                  <div class="plan__item-wrapper">
+                    <img class="plan__item-img" src="images/plan/1.webp" alt="">
+                    <div class="plan__item-program">
+                      <div class="plan__item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px"
+                          height="13px">
+                          <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                            d="M3.680,9.617 L7.941,12.838 C8.079,12.941 8.248,12.998 8.421,12.998 L9.210,12.998 C9.646,12.998 9.1000,12.648 9.1000,12.218 L9.1000,0.777 C9.1000,0.346 9.646,-0.001 9.210,-0.001 L8.421,-0.001 C8.248,-0.001 8.079,0.054 7.941,0.158 L3.680,3.377 L1.447,3.377 C0.649,3.377 -0.000,4.019 -0.000,4.807 L-0.000,8.187 C-0.000,8.976 0.649,9.617 1.447,9.617 L3.680,9.617 ZM8.421,1.759 L8.421,11.235 L4.737,8.453 L4.737,4.543 L8.421,1.759 ZM1.579,4.937 L3.158,4.937 L3.158,8.057 L1.579,8.057 L1.579,4.937 Z" />
+                        </svg>
+                      </div>
+                      <span class="plan__item-text">Аудио-программа №1</span>
+                    </div>
+                  </div>
+                  <div class="plan__item-info">
+                    <h5 class="plan__item-title">
+                      2200 год
+                    </h5>
+                    <p class="plan__item-descr">
+                      Наполняем смыслом жизнь
+                    </p>
+                  </div>
+                </div>
+                <div class="plan__item">
+                  <div class="plan__item-wrapper">
+                    <img class="plan__item-img" src="images/plan/2.webp" alt="">
+                    <div class="plan__item-program">
+                      <div class="plan__item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px"
+                          height="13px">
+                          <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                            d="M3.680,9.617 L7.941,12.838 C8.079,12.941 8.248,12.998 8.421,12.998 L9.210,12.998 C9.646,12.998 9.1000,12.648 9.1000,12.218 L9.1000,0.777 C9.1000,0.346 9.646,-0.001 9.210,-0.001 L8.421,-0.001 C8.248,-0.001 8.079,0.054 7.941,0.158 L3.680,3.377 L1.447,3.377 C0.649,3.377 -0.000,4.019 -0.000,4.807 L-0.000,8.187 C-0.000,8.976 0.649,9.617 1.447,9.617 L3.680,9.617 ZM8.421,1.759 L8.421,11.235 L4.737,8.453 L4.737,4.543 L8.421,1.759 ZM1.579,4.937 L3.158,4.937 L3.158,8.057 L1.579,8.057 L1.579,4.937 Z" />
+                        </svg>
+                      </div>
+                      <span class="plan__item-text">Аудио-программа №2</span>
+                    </div>
+                  </div>
+                  <div class="plan__item-info">
+                    <h5 class="plan__item-title">
+                      Мужское начало
+
+                    </h5>
+                    <p class="plan__item-descr">
+                      Создаем внутренний «стержень»
+                    </p>
+                  </div>
+                </div>
+                <div class="plan__item">
+                  <div class="plan__item-wrapper">
+                    <img class="plan__item-img" src="images/plan/3.webp" alt="">
+                    <div class="plan__item-program">
+                      <div class="plan__item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px"
+                          height="13px">
+                          <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                            d="M3.680,9.617 L7.941,12.838 C8.079,12.941 8.248,12.998 8.421,12.998 L9.210,12.998 C9.646,12.998 9.1000,12.648 9.1000,12.218 L9.1000,0.777 C9.1000,0.346 9.646,-0.001 9.210,-0.001 L8.421,-0.001 C8.248,-0.001 8.079,0.054 7.941,0.158 L3.680,3.377 L1.447,3.377 C0.649,3.377 -0.000,4.019 -0.000,4.807 L-0.000,8.187 C-0.000,8.976 0.649,9.617 1.447,9.617 L3.680,9.617 ZM8.421,1.759 L8.421,11.235 L4.737,8.453 L4.737,4.543 L8.421,1.759 ZM1.579,4.937 L3.158,4.937 L3.158,8.057 L1.579,8.057 L1.579,4.937 Z" />
+                        </svg>
+                      </div>
+                      <span class="plan__item-text">Аудио-программа №3</span>
+                    </div>
+                  </div>
+                  <div class="plan__item-info">
+                    <h5 class="plan__item-title">
+                      Возможно, это мой
+                      последний день
+                    </h5>
+                    <p class="plan__item-descr">
+                      Научитесь отделять главное
+                      от второстепенного
+                    </p>
+                  </div>
+                </div>
+                <div class="plan__item">
+                  <div class="plan__item-wrapper">
+                    <img class="plan__item-img" src="images/plan/4.webp" alt="">
+                    <div class="plan__item-program">
+                      <div class="plan__item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px"
+                          height="13px">
+                          <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                            d="M3.680,9.617 L7.941,12.838 C8.079,12.941 8.248,12.998 8.421,12.998 L9.210,12.998 C9.646,12.998 9.1000,12.648 9.1000,12.218 L9.1000,0.777 C9.1000,0.346 9.646,-0.001 9.210,-0.001 L8.421,-0.001 C8.248,-0.001 8.079,0.054 7.941,0.158 L3.680,3.377 L1.447,3.377 C0.649,3.377 -0.000,4.019 -0.000,4.807 L-0.000,8.187 C-0.000,8.976 0.649,9.617 1.447,9.617 L3.680,9.617 ZM8.421,1.759 L8.421,11.235 L4.737,8.453 L4.737,4.543 L8.421,1.759 ZM1.579,4.937 L3.158,4.937 L3.158,8.057 L1.579,8.057 L1.579,4.937 Z" />
+                        </svg>
+                      </div>
+                      <span class="plan__item-text">Аудио-программа №4</span>
+                    </div>
+                  </div>
+                  <div class="plan__item-info">
+                    <h5 class="plan__item-title">
+                      Сепарация
+                    </h5>
+                    <p class="plan__item-descr">
+                      Вместе найдем ваши
+                      истинные желания
+                    </p>
+                  </div>
+                </div>
+                <div class="plan__item">
+                  <div class="plan__item-wrapper">
+                    <img class="plan__item-img" src="images/plan/5.webp" alt="">
+                    <div class="plan__item-program">
+                      <div class="plan__item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px"
+                          height="13px">
+                          <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                            d="M3.680,9.617 L7.941,12.838 C8.079,12.941 8.248,12.998 8.421,12.998 L9.210,12.998 C9.646,12.998 9.1000,12.648 9.1000,12.218 L9.1000,0.777 C9.1000,0.346 9.646,-0.001 9.210,-0.001 L8.421,-0.001 C8.248,-0.001 8.079,0.054 7.941,0.158 L3.680,3.377 L1.447,3.377 C0.649,3.377 -0.000,4.019 -0.000,4.807 L-0.000,8.187 C-0.000,8.976 0.649,9.617 1.447,9.617 L3.680,9.617 ZM8.421,1.759 L8.421,11.235 L4.737,8.453 L4.737,4.543 L8.421,1.759 ZM1.579,4.937 L3.158,4.937 L3.158,8.057 L1.579,8.057 L1.579,4.937 Z" />
+                        </svg>
+                      </div>
+                      <span class="plan__item-text">Аудио-программа №5</span>
+                    </div>
+                  </div>
+                  <div class="plan__item-info">
+                    <h5 class="plan__item-title">
+                      Эмоциональная гигиена
+                    </h5>
+                    <p class="plan__item-descr">
+                      Проведем очистку организма
+                      от негативных мыслей, создадим
+                      благотворную среду для энергии
+
+                    </p>
+                  </div>
+                </div>
+                <div class="plan__item">
+                  <div class="plan__item-wrapper">
+                    <img class="plan__item-img" src="images/plan/6.webp" alt="">
+                    <div class="plan__item-program">
+                      <div class="plan__item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px"
+                          height="13px">
+                          <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                            d="M3.680,9.617 L7.941,12.838 C8.079,12.941 8.248,12.998 8.421,12.998 L9.210,12.998 C9.646,12.998 9.1000,12.648 9.1000,12.218 L9.1000,0.777 C9.1000,0.346 9.646,-0.001 9.210,-0.001 L8.421,-0.001 C8.248,-0.001 8.079,0.054 7.941,0.158 L3.680,3.377 L1.447,3.377 C0.649,3.377 -0.000,4.019 -0.000,4.807 L-0.000,8.187 C-0.000,8.976 0.649,9.617 1.447,9.617 L3.680,9.617 ZM8.421,1.759 L8.421,11.235 L4.737,8.453 L4.737,4.543 L8.421,1.759 ZM1.579,4.937 L3.158,4.937 L3.158,8.057 L1.579,8.057 L1.579,4.937 Z" />
+                        </svg>
+                      </div>
+                      <span class="plan__item-text">Аудио-программа №6</span>
+                    </div>
+                  </div>
+                  <div class="plan__item-info">
+                    <h5 class="plan__item-title">
+                      Любовное послание от
+                      вашего близкого человека
+                    </h5>
+                    <p class="plan__item-descr">
+                      Поделиться технологией «как вывести
+                      отношения на более высокий уровень»
+
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="one-on-one">
+        <div class="one-on-one__container _container">
+          <h2 class="one-on-one__title _section-title">
+            Работа с Иваном один на один
+            <img src="images/ellipse.webp" alt="" class="_ellipse one-on-one__ellipse">
+          </h2>
+          <div class="one-on-one__items">
+            <div class="one-on-one__left">
+              <ul class="one-on-one__left-list">
+                <li class="one-on-one__item-point">
+                  60 дней интенсивного роста
+                </li>
+                <li class="one-on-one__item-point">
+                  Стратегическая сессия и разбор конкретных
+                  точек роста с Иваном Лободой
+                </li>
+                <li class="one-on-one__item-point">
+                  Наставничество от ТОП-1 коуча в России
+
+                </li>
+                <li class="one-on-one__item-point">
+                  Пошаговое обучение по созданию нового
+                  жизненного сценария
+                </li>
+                <li class="one-on-one__item-point">
+                  Выстраивание системы привычек для
+                  повышения всех аспектов
+                </li>
+              </ul>
+              <div class="one-on-one__left-info">
+                <div class="one-on-one__left-price">
+                  <p class="one-on-one__left-title">
+                    Цена тарифа:
+                  </p>
+                  <p class="one-on-one__left-num">
+                    200 000р.
+                  </p>
+                  <img class="one-on-one__left-dash" src="images/one-on-one/dash.webp" alt="line">
+                </div>
+                <img class="one-on-one__left-human" src="images/one-on-one/human.webp" alt="human">
+              </div>
+            </div>
+            <div class="one-on-one__right">
+              <h5 class="one-on-one__right-title">
+                Что вы получите в рамках
+                программы:
+              </h5>
+              <ul class="one-on-one__right-list">
+                <li class="one-on-one__item-point">
+                  Составим персональную Аудиопрограмму
+                  по итогам обучения
+                </li>
+                <li class="one-on-one__item-point">
+                  Найдем ответ на вопрос «А какая жизнь
+                  я хочу прожить на самом деле?»
+                </li>
+                <li class="one-on-one__item-point">
+                  ДВА месяца личного сопровождения
+                  от Ивана Лободы по внедрению новых
+                  моделей поведения в свою жизнь
+                </li>
+                <li class="one-on-one__item-point">
+                  Выявление и формирование запроса по
+                  уникальной авторской методике Ивана Лободы
+                </li>
+                <li class="one-on-one__item-point">
+                  Индивидуальная поддержка в течении 3-4 часов
+                </li>
+                <li class="one-on-one__item-point">
+                  8 личный консультаций, для реализации целей
+                </li>
+                <li class="one-on-one__item-point">
+                  Инструкция «как создать личный запах…
+                  Богатства, Успеха, Власти»
+                </li>
+              </ul>
+              <a class="_main-btn one-on-one__button" href="https://forms.gle/5xiW5wTwVTXWBTeU6" target="_blank">
+                Пройти отбор на VIP-формат
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22">
+                  <defs>
+                    <mask id="7xu5b" width="2" height="2" x="-1" y="-1">
+                      <path fill="#fff" d="M0 0h21v21H0z"></path>
+                      <path d="M11.019.834v3.017h4.02L-.037 18.928l2.01 2.01L17.05 5.86v4.021h3.016V.834z"></path>
+                    </mask>
+                    <filter id="7xu5a" width="41" height="42" x="-10" y="-10" filterUnits="userSpaceOnUse">
+                      <feOffset dy="1" in="SourceGraphic" result="FeOffset1068Out"></feOffset>
+                      <feGaussianBlur in="FeOffset1068Out" result="FeGaussianBlur1069Out" stdDeviation="0 0">
+                      </feGaussianBlur>
+                    </filter>
+                  </defs>
+                  <g>
+                    <g>
+                      <g filter="url(#7xu5a)">
+                        <path fill="none" d="M11.019.834v3.017h4.02L-.037 18.928l2.01 2.01L17.05 5.86v4.021h3.016V.834z"
+                          mask="url(&quot;#7xu5b&quot;)"></path>
+                        <path fill="#fff" fill-opacity=".5"
+                          d="M11.019.834v3.017h4.02L-.037 18.928l2.01 2.01L17.05 5.86v4.021h3.016V.834z"></path>
+                      </g>
+                      <path fill="#393628"
+                        d="M11.019.834v3.017h4.02L-.037 18.928l2.01 2.01L17.05 5.86v4.021h3.016V.834z"></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              <img class="one-on-one__right-diamond" src="images/one-on-one/diamond.webp" alt="diamond">
+              <img class="one-on-one__right-line" src="images/icons/line.svg" alt="line">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+</body>
+
+</html>

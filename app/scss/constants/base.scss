@@ -1,0 +1,13 @@
+
+
+.visible-hand{
+  max-width: 42px;
+  margin: 0 auto;
+  display: none;
+}
+
+@media (max-width: 568px) {
+.visible-hand {
+    display: block;
+  }
+}
